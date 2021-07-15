@@ -14,9 +14,9 @@ useFetchGifs: maneja el estado de la resolución de promesa de getGifs.
 
 ## Componentes
 
-GifExpertApp: componente de más alto nivel.
-AddCategory : encargado de la búsqueda.
-GifGrid     : maneja el contenedor de gifs, usa useFetchGifs y pasa lo obtenido.
+GifExpertApp: componente de más alto nivel.  
+AddCategory : encargado de la búsqueda.  
+GifGrid     : maneja el contenedor de gifs, usa useFetchGifs y pasa lo obtenido.  
 GifGridItem : renderiza la targeta con la información pasada.
 
 ## Helpers
