@@ -1,6 +1,8 @@
 # React-GiphyApp
 
-Busca y muestra en targetas varios gifs sobre la busqueda usando una API de GIPHY, realizado con React 17.
+Busca y muestra en targetas varios gifs sobre la busqueda usando una API de GIPHY, realizado con React 17 con Testing.
+
+`npm start` para ejecutar la app en modo de desarrollo (http://localhost:3000).
 
 ## App State
 
@@ -21,6 +23,13 @@ GifGridItem : renderiza la targeta con la información pasada.
 
 getGifs: Hace la petición fetch al endpoint, prepara y devuleve un objeto con la información relevante para la app.
 
-`npm start` para ejecutar la app en modo de desarrollo (http://localhost:3000).
-`npm test`  para ejecutar las pruebas escritas en el proyecto.
+
+## Testing
+
+Las pruebas estan realizadas con las librerías **Enzyme** y **Jest**.
+Hay archivos de pruebas para cada archivo js de la aplicación.
+
+Para probar el custom hook es necesario usar la librería de desarrollo react-hooks-testing-library.
+
+`npm test` para ejecutar las pruebas escritas en el proyecto.
 
