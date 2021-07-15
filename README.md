@@ -2,6 +2,12 @@
 
 Busca y muestra en targetas varios gifs sobre la busqueda usando una API de GIPHY, realizado con React 17 con Testing.
 
+Las pruebas estan realizadas con las librerías **Enzyme** y **Jest**.
+Hay archivos de pruebas para cada archivo js de la aplicación.
+
+Para probar el custom hook es necesario usar la librería de desarrollo react-hooks-testing-library.
+
+`npm test` para ejecutar las pruebas escritas en el proyecto.
 `npm start` para ejecutar la app en modo de desarrollo (http://localhost:3000).
 
 ## App State
@@ -22,14 +28,3 @@ GifGridItem : renderiza la targeta con la información pasada.
 ## Helpers
 
 getGifs: Hace la petición fetch al endpoint, prepara y devuleve un objeto con la información relevante para la app.
-
-
-## Testing
-
-Las pruebas estan realizadas con las librerías **Enzyme** y **Jest**.
-Hay archivos de pruebas para cada archivo js de la aplicación.
-
-Para probar el custom hook es necesario usar la librería de desarrollo react-hooks-testing-library.
-
-`npm test` para ejecutar las pruebas escritas en el proyecto.
-
